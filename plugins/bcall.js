@@ -18,7 +18,7 @@ let handler = async (m, { conn, isROwner, text }) => {
 
     await delay(500)
 
-    let pp = fs.readFileSync('./src/welcome.jpg')
+    let pp = fs.readFileSync('./media/kingdom.jpg')
 
     await conn.sendHButtonLoc(i,pp, pesan, 'BROADCAST', "📍Instagram", instagram, `OK`, `ok`, m)
 
