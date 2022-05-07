@@ -177,8 +177,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            },
                {
              quickReplyButton: {
-               displayText: '💲 JOIN',
-               id: '.request',
+               displayText: '💲 HOW ADD BOT YOUR GROUP',
+               id: '.addmygc',
              }
 
            },
